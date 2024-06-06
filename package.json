@@ -1,0 +1,11 @@
+{
+  "name": "tiffystar",
+  "version": "1.0.0",
+  "description": "Hack-a-thon",
+  "main": "index.js",
+  "author": "TIFFANY <crick.tiffany@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@react-spring/web": "^9.7.3"
+  }
+}
