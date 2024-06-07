@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  font-size: calc(10px + 2vmin);
+  background-image: url('./TurtleTracks.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200vh;
 }
 
-
-.App-header {
-  background-color: #0d5503;
+/* .App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,4 +16,36 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative; /* Ensure the header is positioned relative to its container */
+  /* z-index: 2; Ensure the header content is above the background
+} */ 
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  color: rgb(22, 8, 8);
+}
+
+a {
+  color: rgb(22, 8, 8);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#warrior-sun {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap to the next line if there's not enough space */
+  justify-content: center; /* Centers the items horizontally */
+}
+
+.warrior-sun-item {
+  flex: 0 0 calc(50% - 20px); /* Each item takes up half the width minus spacing */
+  margin: 10px;
 }

@@ -1,0 +1,22 @@
+.rotating-ss-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure the rotating image is below the header content */
+  }
+  
+  .rotating-ss {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px;
+    border-radius: 50%; /* Makes the image circular */
+    animation: rotate 5s linear infinite; /* Rotates continuously */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,9 +1,9 @@
-// src/YogaPoses.js
+// src/WarriorPoses.js
 import React, { useState } from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import './App.css';
 
-const YogaPoses = () => {
+const WarriorPoses = () => {
     //initializes index to 0 and provides a way to update it.
     const [index, setIndex] = useState(0);
     const poses = [
@@ -43,5 +43,5 @@ const YogaPoses = () => {
     );
 };
 
-export default YogaPoses;
+export default WarriorPoses;
 //projects/25Hackathon/my-animated-app
